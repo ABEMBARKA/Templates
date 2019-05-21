@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Templates.WebUI.Areas.Identity.Pages.Account.Manage
+namespace Templates.WebUi.Areas.Identity.Pages.Account.Manage
 {
     public class EnableAuthenticatorModel : PageModel
     {
@@ -148,7 +148,7 @@ namespace Templates.WebUI.Areas.Identity.Pages.Account.Manage
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("Templates.WebUI"),
+                _urlEncoder.Encode("Templates.WebUi"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

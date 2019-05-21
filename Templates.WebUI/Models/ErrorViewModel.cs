@@ -1,6 +1,6 @@
 using System;
 
-namespace Templates.WebUI.Models
+namespace Templates.WebUi.Models
 {
     public class ErrorViewModel
     {

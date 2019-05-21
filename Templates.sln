@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Templates.DataAccess", "Templates.DataAccess\Templates.DataAccess.csproj", "{679C78C2-BDA5-4FBD-84A8-96D22A081510}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templates.WebUI", "Templates.WebUI\Templates.WebUI.csproj", "{507C863E-7112-4D8E-8C35-331C4201A1E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Templates.WebUi", "Templates.WebUi\Templates.WebUi.csproj", "{8C92B7A9-5B65-4C82-8935-DF3B40B881A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{679C78C2-BDA5-4FBD-84A8-96D22A081510}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{679C78C2-BDA5-4FBD-84A8-96D22A081510}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{679C78C2-BDA5-4FBD-84A8-96D22A081510}.Release|Any CPU.Build.0 = Release|Any CPU
-		{507C863E-7112-4D8E-8C35-331C4201A1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{507C863E-7112-4D8E-8C35-331C4201A1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{507C863E-7112-4D8E-8C35-331C4201A1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{507C863E-7112-4D8E-8C35-331C4201A1E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C92B7A9-5B65-4C82-8935-DF3B40B881A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C92B7A9-5B65-4C82-8935-DF3B40B881A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C92B7A9-5B65-4C82-8935-DF3B40B881A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C92B7A9-5B65-4C82-8935-DF3B40B881A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

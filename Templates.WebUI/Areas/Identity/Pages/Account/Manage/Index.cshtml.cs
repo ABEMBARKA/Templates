@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Templates.WebUI.Areas.Identity.Pages.Account.Manage
+namespace Templates.WebUi.Areas.Identity.Pages.Account.Manage
 {
     public partial class IndexModel : PageModel
     {

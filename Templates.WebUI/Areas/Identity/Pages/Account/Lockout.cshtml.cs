@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Templates.WebUI.Areas.Identity.Pages.Account
+namespace Templates.WebUi.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
     public class LockoutModel : PageModel

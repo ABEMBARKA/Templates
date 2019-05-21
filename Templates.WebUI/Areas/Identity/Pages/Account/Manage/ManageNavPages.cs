@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Templates.WebUI.Areas.Identity.Pages.Account.Manage
+namespace Templates.WebUi.Areas.Identity.Pages.Account.Manage
 {
     public static class ManageNavPages
     {
