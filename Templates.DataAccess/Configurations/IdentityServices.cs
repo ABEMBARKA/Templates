@@ -1,4 +1,4 @@
-﻿namespace Templates.DataAccess
+﻿namespace Templates.DataAccess.Configurations
 {
     using System;
     using Core;
@@ -38,12 +38,8 @@
                 options.Password.RequireLowercase = false;
                 options.Password.RequireDigit = false;
                 options.Password.RequireUppercase = false;
+               
             });
-
-
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddDefaultUI(UIFramework.Bootstrap4)
-                .AddEntityFrameworkStores<DataContext>();
             return services;
         }
     }
