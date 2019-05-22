@@ -48,7 +48,7 @@
           pointer-events: none;
         }
       }
-      .fas, .fab, .far {
+      .fa {
         padding-right: $navbar-flex-icons-padding-lg;
         padding-left: $navbar-flex-icons-padding-lg;
       }
@@ -93,16 +93,6 @@
       &.top-nav-collapse {
         padding-top: $navbar-top-collapse-padding;
         padding-bottom: $navbar-top-collapse-padding;
-      }
-    }
-  }
-  &.fixed-top,
-  &.sticky-top {
-    .navbar-collapse {
-      @media (min-width: 400px) and (max-width: 767px), (min-width: 800px) and (max-width: 850px) {
-        max-height: 340px;
-        overflow-x: hidden;
-        overflow-y: auto;
       }
     }
   }
