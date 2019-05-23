@@ -17,7 +17,7 @@
 </head>
 <body class="white-skin">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light white">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebUi</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
@@ -33,13 +33,13 @@
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false">Dropdown</a>
                             <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                                 <a class="dropdown-item" asp-area="" asp-controller="Imports" asp-action="Index">Import Bidg Data</a>
-                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" asp-area="" asp-controller="Imports" asp-action="Table">Datatables</a>
                                 <a class="dropdown-item" href="#">Something else here</a>
                             </div>
                         </li>
@@ -50,18 +50,19 @@
             </div>
         </nav>
     </header>
-    <div class="container maxBody">
-        <partial name="_CookieConsentPartial" />
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
+<main role="main" class="mt-3 pt-md-5" style="">
+    <partial name="_CookieConsentPartial" />
+    <div class="container ">
+
+        @RenderBody()
+    </div>
+</main>
     <footer class="page-footer font-small info-color fixed-bottom">
         @*<div class="container-fluid text-center text-md-left">*@
-            <div class="footer-copyright text-center">
-                &copy; 2019 - Templates.WebUi - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-            </div>
+        <div class="footer-copyright text-center">
+            &copy; 2019 - Templates.WebUi - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
         @*</div>*@
     </footer>
 

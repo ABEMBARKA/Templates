@@ -9,5 +9,10 @@
         {
             return await Task.Run(() => View());
         }
+
+        public async Task<IActionResult> Table()
+        {
+            return await Task.Run(() => View());
+        }
     }
 }
