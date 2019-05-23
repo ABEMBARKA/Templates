@@ -15,9 +15,9 @@
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
 </head>
-<body>
+<body class="white-skin">
     <header>
-        <nav class="navbar fixed-top navbar-expand-md navbar-light white">
+        <nav class="navbar navbar-expand-lg navbar-light white">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">WebUi</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
@@ -33,19 +33,12 @@
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Imports" asp-action="Index">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
+                        
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-555" data-toggle="dropdown"
-                               aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-555">
-                                <a class="dropdown-item" href="#">Action</a>
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" asp-area="" asp-controller="Imports" asp-action="Index">Import Bidg Data</a>
                                 <a class="dropdown-item" href="#">Another action</a>
                                 <a class="dropdown-item" href="#">Something else here</a>
                             </div>
@@ -57,17 +50,19 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container maxBody">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2019 - Templates.WebUi - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <footer class="page-footer font-small info-color fixed-bottom">
+        @*<div class="container-fluid text-center text-md-left">*@
+            <div class="footer-copyright text-center">
+                &copy; 2019 - Templates.WebUi - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        @*</div>*@
     </footer>
 
     <environment include="Development">
